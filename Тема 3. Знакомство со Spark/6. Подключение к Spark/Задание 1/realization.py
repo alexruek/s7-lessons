@@ -1,2 +1,17 @@
 from pyspark.sql import SparkSession
-spark = # дополните код
+import os
+import findspark
+
+os.environ['HADOOP_CONF_DIR'] = '/etc/hadoop/conf'
+os.environ['YARN_CONF_DIR'] = '/etc/hadoop/conf'
+
+findspark.init()
+findspark.find()
+
+spark = SparkSession \
+    .builder \
+    .config("spark.driver.memory", "1g") \
+    .config("spark.executor.cores", 1) \
+    .config("spark.driver.cores", 2) \
+    .appName("My first session") \
+    .getOrCreate()

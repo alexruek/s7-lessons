@@ -1,1 +1,15 @@
 Сохраните сюда результат вывода:
++-----------------------------------+
+|title                              |
++-----------------------------------+
+|Bad Girls                          |
+|Catch-22                           |
+|The Catcher in the Rye             |
+|Nineteen Eighty-Four               |
+|Harry Potter and the Goblet of Fire|
+|Harry Potter and the Goblet of Fire|
+|Jane Eyre                          |
+|The Mayor of Casterbridge          |
+|The Wind in the Willows            |
++-----------------------------------+
+
